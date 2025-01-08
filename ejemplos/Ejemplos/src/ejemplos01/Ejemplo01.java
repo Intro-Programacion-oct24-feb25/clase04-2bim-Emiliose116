@@ -28,7 +28,7 @@ public class Ejemplo01 {
         String m;
         String ciudad = "Loja";
         m = obtenerCiudadMayuscula(ciudad);
-        System.out.printf("%s", m);
+        System.out.printf("%s\n", m);
     }
     
     
