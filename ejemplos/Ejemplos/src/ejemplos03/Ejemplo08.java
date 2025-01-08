@@ -18,10 +18,11 @@ public class Ejemplo08 {
         Scanner entrada = new Scanner(System.in);
         int indice;
         // 
-        String mensajeSuma;
-        String mensajeSumaDos;
+        String mensajeSuma = "";
+        String mensajeSumaDos = "";
         int a;
         int b;
+        
         
         System.out.println("Ingese el numero de la operacion que desea realizar");
         System.out.println("1. Tabla de sumar\n2. Tabla de multiplicar");
@@ -40,7 +41,8 @@ public class Ejemplo08 {
                 a = entrada.nextInt();
                 System.out.println("Ingrese el valor que desee para la tabla");
                 b = entrada.nextInt();
-                mensajeSuma = obtenerTablaMultiplicar(a ,b );
+                mensajeSumaDos = obtenerTablaMultiplicar(a ,b );
+                break;
         }
                 
         
