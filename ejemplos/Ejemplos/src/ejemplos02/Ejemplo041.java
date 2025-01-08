@@ -12,7 +12,13 @@ package ejemplos02;
 public class Ejemplo041 {
 
     public static void main(String[] args) {
-        // 
+        /*
+        Tenemos 3 arreglos, 2 de ellos con un valor asignado, y mediante una 
+        funcion le asignamos valores multiplicando la posicion correspondientes
+        del arreglo1 y arreglo2.
+        Por ultimo, usamos un procedimiento para presentar los arreglos 
+        mediantes dos ciclos repetitivos
+        */ 
         
         int [][] arreglo1 = {{1,2,3}, {3,2,4}, {2,6,2}};
         int [][] arreglo2 = {{1,2,3}, {2,2,2}, {3,1,2}};
