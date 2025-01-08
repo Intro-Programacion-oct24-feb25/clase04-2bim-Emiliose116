@@ -38,7 +38,6 @@ public class Ejemplo031 {
             suma = a + b;
         }
         return suma;
-
     }
 
 }
