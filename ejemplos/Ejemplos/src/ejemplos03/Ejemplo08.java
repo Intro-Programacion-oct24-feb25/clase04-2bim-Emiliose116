@@ -22,23 +22,20 @@ public class Ejemplo08 {
         int a;
         int b;
 
+        System.out.println("Ingrese el limite a la tabla");
+        a = entrada.nextInt();
+        System.out.println("Ingrese el valor que desee para la tabla");
+        b = entrada.nextInt();
+
         System.out.println("Ingese el numero de la operacion que desea realizar");
         System.out.println("1. Tabla de sumar\n2. Tabla de multiplicar");
         indice = entrada.nextInt();
 
         switch (indice) {
             case 1:
-                System.out.println("Ingrese el limite a la tabla de sumar");
-                a = entrada.nextInt();
-                System.out.println("Ingrese el valor que desee para la tabla");
-                b = entrada.nextInt();
                 mensajeSuma = obtenerTablaSumar(a, b);
                 break;
             case 2:
-                System.out.println("Ingrese el limite a la tabla de multiplicarr");
-                a = entrada.nextInt();
-                System.out.println("Ingrese el valor que desee para la tabla");
-                b = entrada.nextInt();
                 mensajeSumaDos = obtenerTablaMultiplicar(a, b);
                 break;
         }
